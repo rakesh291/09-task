@@ -1,0 +1,32 @@
+#{margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+    min-height: 100vh;
+    background-color:aliceblue;
+}
+.navbar{
+    width:250px;
+    height:100vh;
+    position:fixed;
+    margin-left: -300px;
+    background-color:aqua;
+    transition: 0.4;
+}
+.nav-link{
+    font-size:1.25em;
+}
+.nav-link:action,
+.nav-link:focus,
+.nav-link:hover{
+    background-color: antiquewhite;
+}
+.droppdown-menu{
+    background-color: aliceblue;
+}
+.droppdown-item:active,
+.droppdown-item:focus,
+.droppdown-item:hover{
+    background-color: azure;
+},
